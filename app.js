@@ -1,9 +1,10 @@
-const { createProvider } = require('packages/bot/index')
+const { createProvider } = require('./packages/bot/index');
 
-const MetaProvider = require('packages/provider/src/meta/index')
-const MockAdapter = require('packages/database/src/mock/index')
+const MetaProvider = require('./packages/provider/src/meta/index')
+const MockAdapter = require('./packages/database/src/mock/index')
 
-const { createBotDialog } = require('packages/contexts/src/dialogflow/index')
+const { createBotDialog } = require('./packages/contexts/src/dialogflow/index')
+
 
 /**
  * Aqui declaramos los flujos hijos, los flujos se declaran de atras para adelante, es decir que si tienes un flujo de este tipo:

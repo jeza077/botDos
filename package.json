@@ -1,10 +1,10 @@
 {
-    "name": "base-meta-memory",
+    "name": "bot",
     "version": "1.0.0",
     "description": "",
     "main": "app.js",
     "scripts": {
-        "pre-copy": "cd .. && yarn run copy.lib base-meta-memory",
+        "pre-copy": "cd .. && yarn run copy.lib bot",
         "start": "node app.js"
     },
     "keywords": [],

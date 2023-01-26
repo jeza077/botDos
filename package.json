@@ -9,9 +9,9 @@
     },
     "keywords": [],
     "dependencies": {
-        "@bot-whatsapp/bot": "^0.0.75-alpha.0",
+        "@bot-whatsapp/bot": "0.1.16",
         "@bot-whatsapp/cli": "0.1.16",
-        "@bot-whatsapp/contexts": "^0.0.23-alpha.0",
+        "@bot-whatsapp/contexts": "0.1.16",
         "@bot-whatsapp/database": "0.1.16",
         "@bot-whatsapp/provider": "0.1.16",
         "@google-cloud/dialogflow": "^5.4.0",
